@@ -92,7 +92,7 @@ client.on("messageCreate", async (message) => {
 
       // Pozivamo Gemini sa celokupnim kontekstom
       const response = await ai.models.generateContent({
-        model: "gemini-3.6-flash",
+        model: "gemini-2.5-flash",
         contents: contents,
         config: {
           systemInstruction:
